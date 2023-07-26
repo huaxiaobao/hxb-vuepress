@@ -8,10 +8,7 @@
     "docs:build": "vuepress build ",
     "deploy":"bash deploy.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/huaxiaobao/hxb-vuepress.git"
-  },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
