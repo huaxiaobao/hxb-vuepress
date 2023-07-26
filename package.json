@@ -1,0 +1,23 @@
+{
+  "name": "my-vue-press",
+  "version": "1.0.0",
+  "description": "第一次搭建一个vuePrevess",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "docs:build": "vuepress build ",
+    "deploy":"bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huaxiaobao/hxb-vuepress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
