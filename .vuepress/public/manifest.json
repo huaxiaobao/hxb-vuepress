@@ -1,0 +1,16 @@
+{
+  "name": "花小宝",
+  "short_name": "hxb",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/index.html",
+  "icons":[
+    {
+      "src":"/icons/bg.jpg",
+      "size":"192*192",
+      "type":"image/png"
+    }
+  ]
+}
