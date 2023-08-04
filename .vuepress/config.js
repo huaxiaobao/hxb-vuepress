@@ -1,3 +1,5 @@
+const navigations = require('./config/navigateConfig')
+const sideBarConfig = require('./config/sideBarConfig')
 module.exports = {
   // base:'/hxb-vuepress/',
   title: "花小宝-vuepress",
@@ -15,17 +17,8 @@ module.exports = {
   ],
   themeConfig: {
     logo: "/assets/img/logo.png",
-    nav: [
-      { text: "主页", link: "/" },
-      { text: "vuePress使用", link: "/about/" },
-      { text: "博客", link: "https://huaxiaobao.top" },
-      { text: "语言", link: "/language/" },
-    ],
-    sidebar: {
-      "/about/": ["config"],
-      "/language/": ["chinese", "english"],
-      "/": [""],
-    },
+    nav: navigations,
+    sidebar: sideBarConfig,
     lastUpdated: "更新时间",
   },
   plugins: [
