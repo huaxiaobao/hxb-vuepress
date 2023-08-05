@@ -20,6 +20,7 @@ module.exports = {
     nav: navigations,
     sidebar: sideBarConfig,
     lastUpdated: "更新时间",
+    searchMaxSuggestions: 10 , //搜索框单次搜索条数
   },
   plugins: [
     [

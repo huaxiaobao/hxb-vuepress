@@ -21,10 +21,16 @@ const navigation = [
       { text: "webpack", link: "/web/webpack/" },
       { text: "nodejs", link: "/web/nodejs/" },
       { text: "前端部署那些事", link: "/web/webDescription/" },
-      { text: "前端有趣的插件", link: "/web/plugins/" }
+      { text: "前端有趣的插件", link: "/web/plugins/" },
     ],
   },
-  { text: "罗老师金典", link: "https://huaxiaobao.top" },
+  {
+    text: "花花日记",
+    items: [
+      { text: "罗老师金典名言", link: "/" },
+      { text: "走心文案", link: "/dayRecord/heart/" },
+    ],
+  },
   { text: "博客", link: "https://huaxiaobao.top" },
   { text: "语言", link: "/language/" },
 ];

@@ -1,6 +1,10 @@
 ---
 title: 导航栏配置
 sidebarDepth: 3
+tags:
+  - 配置
+  - 主题
+  - 索引
 ---
 
 ::: tip <h2>导航栏</h2>

@@ -7,7 +7,7 @@
     "dev": "vuepress dev",
     "docs:build": "vuepress build ",
     "deploy": "bash deploy.sh",
-    "cname":"bash cname.sh"
+    "cname": "bash cname.sh"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^2.6.12",
+    "element-ui": "^2.15.13",
     "moment": "^2.29.4"
   },
   "devDependencies": {
