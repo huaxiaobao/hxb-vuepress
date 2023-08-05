@@ -2,12 +2,12 @@ const navigations = require('./config/navigateConfig')
 const sideBarConfig = require('./config/sideBarConfig')
 module.exports = {
   // base:'/hxb-vuepress/',
-  title: "花小宝-vuepress",
+  title: "花小宝",
   description: "Just playing around",
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#  ' }],
+    ['meta', { name: 'theme-color', content: '#409eff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/icons/bg.jpg' }],
@@ -16,7 +16,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#409eff' }]
   ],
   themeConfig: {
-    logo: "/assets/img/logo.png",
+    logo: "/assets/img/avatar.jpg",
     nav: navigations,
     sidebar: sideBarConfig,
     lastUpdated: "更新时间",

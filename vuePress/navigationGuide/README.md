@@ -8,15 +8,24 @@ sidebarDepth: 3
 :::
 
 ## 导航栏 logo
+你可以通过 themeConfig.logo 增加导航栏 Logo ，Logo 可以被放置在公共文件目录，
+
+::: warning 注意：
+logo 图片要放在 public 目录下，并且 路径也是基于public 目录来进行配置的
+::: 
 
 ```js
 
-
+module.exports = {
+  themeConfig: {
+    logo: '/assets/img/logo.png',
+  }
+}
 
 ```
 
 
-## 导航栏搜索框
+## 导航栏搜索框 (暂时没有配置，后续补充)
 ```js
 
 
@@ -71,3 +80,22 @@ module.exports = {
 }
 ```
 ## 导航栏禁用
+你可以使用 `themeConfig.navbar` 来禁用所有页面的导航栏：
+
+```js
+
+// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    navbar: false
+  }
+}
+
+```
+
+你也可以通过 YAML front matter 来禁用某个指定页面的导航栏：
+```js
+---
+navbar: false
+---
+```
