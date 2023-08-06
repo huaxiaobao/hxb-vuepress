@@ -1,20 +1,14 @@
 const navigations = require('./config/navigateConfig')
 const sideBarConfig = require('./config/sideBarConfig')
+const headConfig = require('./config/headConfig')
+const pluginsConfig = require('./config/pluginsConfig')
+
+
 module.exports = {
   // base:'/hxb-vuepress/',
   title: "花小宝",
   description: "Just playing around",
-  head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#409eff' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icons/bg.jpg' }],
-    ['link', { rel: 'mask-icon', href: '/icons/bg.jpg', color: '#3eaf7c' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/bg.jpg' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#409eff' }]
-  ],
+  head: headConfig,
   themeConfig: {
     logo: "/assets/img/avatar.jpg",
     nav: navigations,
@@ -22,27 +16,5 @@ module.exports = {
     lastUpdated: "更新时间",
     searchMaxSuggestions: 10 , //搜索框单次搜索条数
   },
-  plugins: [
-    [
-      "@vuepress/last-updated",
-      {
-        transformer: (timestamp, lang) => {
-          // 不要忘了安装 moment
-          const moment = require("moment");
-          moment.locale("zh-cn");
-          return moment(timestamp).format("LL");
-        },
-      },
-    ],
-    [
-      "@vuepress/pwa",
-      {
-        serviceWorker: true,
-        updatePopup: {
-          message: "New content is available.",
-          buttonText: "Refresh",
-        },
-      },
-    ],
-  ],
+  plugins: pluginsConfig,
 };

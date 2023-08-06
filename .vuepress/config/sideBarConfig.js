@@ -5,7 +5,8 @@ const sideBarConfigObj = {
     "/vuePress/vuePressGuide/",
     "/vuePress/navigationGuide/",
     "/vuePress/sidebarGuide/",
-    '/vuePress/componentGuide/'
+    '/vuePress/componentGuide/',
+    '/vuePress/vendorGuide/'
   ],
   "/language/": ["chinese", "english"],
   "/web/javascript/": ["/web/javascript/"],

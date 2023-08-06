@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /assets/img/avatar.jpg
 heroText: welecom to 花小宝的 vuepress
 tagline: vuepress 使用指南
 actionText: 快速搭建 vuepress →
