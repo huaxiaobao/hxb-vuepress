@@ -23,11 +23,11 @@ yarn add element-ui //或者  npm install element-ui
 :::
 
 
-第三步: 在任意的markwodn 中引入 elemnt-ui 的组件库就 ok 啦！   
+第三步: 在任意的`markdown`文件中引入 elemnt-ui 的组件库就 ok 啦！   
 <el-button type='primary' style="display:flex;margin:32px auto 0;"> element-ui (演示按钮)</el-button>
 
 ```js
-<el-button type='primary' style="margin-top:32px"> element-ui</el-button>
+<el-button type='primary' style="margin-top:32px"> element-ui(演示按钮)</el-button>
 ```
 
 
