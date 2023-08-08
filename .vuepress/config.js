@@ -10,11 +10,11 @@ module.exports = {
   description: "Just playing around",
   head: headConfig,
   themeConfig: {
-    logo: "/assets/img/avatar.jpg",
+    logo: "/assets/img/avatar.jpg", //logo 图片
     nav: navigations,
     sidebar: sideBarConfig,
     lastUpdated: "更新时间",
     searchMaxSuggestions: 10 , //搜索框单次搜索条数
   },
-  plugins: pluginsConfig,
+  plugins: pluginsConfig, 
 };

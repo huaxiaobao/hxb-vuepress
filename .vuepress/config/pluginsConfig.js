@@ -11,10 +11,10 @@ const pluginsConfig = [
     },
   ],
   [
-    "@vuepress/pwa",
+    "@vuepress/pwa",   
     {
       serviceWorker: true,
-      updatePopup: {
+      updatePopup: { 
         message: "有新的内容更新！",
         buttonText: "刷新",
       },

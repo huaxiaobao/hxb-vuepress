@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
+    "hot":"vuepress dev  --temp .temp",
     "docs:build": "vuepress build ",
     "deploy": "bash deploy.sh",
     "cname": "bash cname.sh"

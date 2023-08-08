@@ -1,5 +1,5 @@
 const headerConfig = [
-  ['link', { rel: 'icon', href: '/assets/avatar.jpg' }],
+  ['link', { rel: 'icon', href: '/assets/img/avatar.jpg' }],
   ['link', { rel: 'manifest', href: '/manifest.json' }],
   ['meta', { name: 'theme-color', content: '#409eff' }],
   ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -10,4 +10,4 @@ const headerConfig = [
   ['meta', { name: 'msapplication-TileColor', content: '#409eff' }]
 ]
 
-module.exports = headerConfig
+module.exports = headerConfig   

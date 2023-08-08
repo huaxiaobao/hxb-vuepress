@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "heartWords",
+  name: "heartWords", 
   data() {
     return {
       wordList: [
