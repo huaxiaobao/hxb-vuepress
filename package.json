@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
-    "hot":"vuepress dev  --temp .temp",
+    "hot": "vuepress dev  --temp .temp",
     "docs:build": "vuepress build ",
     "deploy": "bash deploy.sh",
     "cname": "bash cname.sh"
@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "core-js": "^2.6.12",
     "element-ui": "^2.15.13",
     "moment": "^2.29.4"
