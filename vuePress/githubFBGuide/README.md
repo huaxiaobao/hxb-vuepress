@@ -2,11 +2,13 @@
 title: github 部署
 ---
 
+[[toc]]
+
 ## 发布到 github.io
 若我们在使用项目的时候，没有关联到 github 仓库,那我们先需要对 github 仓库进行关联
 关联完成之后，我们需要做如下操作：
 
-##  修改 `config.js` 文件
+###  修改 `config.js` 文件
 :::tip 修改 base 路径
 基路径的修改，和你 github 的目录结构有关
 
@@ -17,7 +19,7 @@ title: github 部署
 换种理解，如果你的仓库名字 my-vupress,你的代码直接放在这个里面，你就不需要修改路径，如果你的代码是放在 my-vuepress 下面的 vuepress 目录，你的 `base` 就要设置成  `/my-vuepress/`
 :::
 
-## 新增 `deploy.sh `文件
+## 新增 `deploy.sh `文件   
 
 :::warning 注意：
 1、请注意修改 文件中  `cd docs/.vuepress/dist` 中的 docs，这个 docs 为 根目录的名称

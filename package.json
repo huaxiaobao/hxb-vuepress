@@ -17,12 +17,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@codeciting/vuepress-plugin-echarts": "^0.2.4",
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "core-js": "^2.6.12",
+    "echarts": "^5.4.3",
     "element-ui": "^2.15.13",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "vue": "2.7.14",
+    "vue-server-renderer": "^2.7.14",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-rocket": "^1.0.4"
   },
   "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.9",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "@vuepress/plugin-nprogress": "^1.9.10",
     "@vuepress/plugin-pwa": "^1.9.9",
     "vuepress": "^1.9.9"
   }
