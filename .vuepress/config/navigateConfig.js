@@ -22,6 +22,7 @@ const navigation = [
       { text: "nodejs", link: "/web/nodejs/" },
       { text: "前端部署那些事", link: "/web/webDescription/" },
       { text: "前端有趣的插件", link: "/web/plugins/" },
+      { text: " 前端组件库开发", link: "/web/hosp-ui/" }
     ],
   },
   {

@@ -1,4 +1,5 @@
 export default [
   "SWUpdatePopup",
-  "BgMusic"
+  "BgMusic",
+  "KanBanNiang"
 ]

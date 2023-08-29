@@ -1,1 +1,1 @@
-export { default } from "F:\\我的项目\\测试vue按需导入问题\\my-vue-press\\node_modules\\vuepress-plugin-code-copy\\appFile.js"
+export { default } from "F:\\我的项目\\测试vue按需导入问题\\my-vue-press\\node_modules\\@vuepress-reco\\vuepress-plugin-kan-ban-niang\\bin\\enhanceAppFile.js"

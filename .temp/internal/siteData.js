@@ -69,6 +69,70 @@ export const siteData = {
         "name": "msapplication-TileColor",
         "content": "#409eff"
       }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
     ]
   ],
   "pages": [
@@ -122,15 +186,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691161414000
     },
     {
-      "frontmatter": {},
-      "regularPath": "/dayRecord/heart/",
-      "relativePath": "dayRecord/heart/README.md",
-      "key": "v-617164b1",
-      "path": "/dayRecord/heart/",
-      "lastUpdated": "2023年8月5日",
-      "lastUpdatedTimestamp": 1691250484000
-    },
-    {
       "title": "中文",
       "frontmatter": {},
       "regularPath": "/language/chinese.html",
@@ -144,8 +199,8 @@ export const siteData = {
           "slug": "中文"
         }
       ],
-      "lastUpdated": "2023年7月26日",
-      "lastUpdatedTimestamp": 1690370617000
+      "lastUpdated": "2023年8月15日",
+      "lastUpdatedTimestamp": 1692092737000
     },
     {
       "title": "English",
@@ -163,25 +218,6 @@ export const siteData = {
       ],
       "lastUpdated": "2023年7月26日",
       "lastUpdatedTimestamp": 1690370617000
-    },
-    {
-      "title": "引入 vue 组件",
-      "frontmatter": {
-        "title": "引入 vue 组件"
-      },
-      "regularPath": "/vuePress/componentGuide/",
-      "relativePath": "vuePress/componentGuide/README.md",
-      "key": "v-284ff21d",
-      "path": "/vuePress/componentGuide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "组件引入",
-          "slug": "组件引入"
-        }
-      ],
-      "lastUpdated": "2023年8月6日",
-      "lastUpdatedTimestamp": 1691334975000
     },
     {
       "title": "vuepress 使用",
@@ -213,55 +249,23 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691423488000
     },
     {
-      "title": "git 操作",
-      "frontmatter": {},
-      "regularPath": "/vuePress/gitOpreation/",
-      "relativePath": "vuePress/gitOpreation/README.md",
-      "key": "v-9869b006",
-      "path": "/vuePress/gitOpreation/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "git 操作",
-          "slug": "git-操作"
-        }
-      ],
-      "lastUpdated": "2023年8月8日",
-      "lastUpdatedTimestamp": 1691509746000
-    },
-    {
-      "title": "PWA 离线缓存",
+      "title": "引入 vue 组件",
       "frontmatter": {
-        "title": "PWA 离线缓存"
+        "title": "引入 vue 组件"
       },
-      "regularPath": "/vuePress/pwaGuide/",
-      "relativePath": "vuePress/pwaGuide/README.md",
-      "key": "v-6bc56a52",
-      "path": "/vuePress/pwaGuide/",
+      "regularPath": "/vuePress/componentGuide/",
+      "relativePath": "vuePress/componentGuide/README.md",
+      "key": "v-284ff21d",
+      "path": "/vuePress/componentGuide/",
       "headers": [
         {
           "level": 2,
-          "title": "PWA 插件",
-          "slug": "pwa-插件"
-        },
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 2,
-          "title": "兼容处理",
-          "slug": "兼容处理"
+          "title": "组件引入",
+          "slug": "组件引入"
         }
       ],
-      "lastUpdated": "2023年8月8日",
-      "lastUpdatedTimestamp": 1691509746000
+      "lastUpdated": "2023年8月6日",
+      "lastUpdatedTimestamp": 1691334975000
     },
     {
       "title": "github 部署",
@@ -279,7 +283,7 @@ export const siteData = {
           "slug": "发布到-github-io"
         },
         {
-          "level": 2,
+          "level": 3,
           "title": "修改 config.js 文件",
           "slug": "修改-config-js-文件"
         },
@@ -302,6 +306,32 @@ export const siteData = {
           "level": 2,
           "title": "效果",
           "slug": "效果"
+        }
+      ],
+      "lastUpdated": "2023年8月15日",
+      "lastUpdatedTimestamp": 1692092737000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/dayRecord/heart/",
+      "relativePath": "dayRecord/heart/README.md",
+      "key": "v-617164b1",
+      "path": "/dayRecord/heart/",
+      "lastUpdated": "2023年8月15日",
+      "lastUpdatedTimestamp": 1692092737000
+    },
+    {
+      "title": "git 操作",
+      "frontmatter": {},
+      "regularPath": "/vuePress/gitOpreation/",
+      "relativePath": "vuePress/gitOpreation/README.md",
+      "key": "v-9869b006",
+      "path": "/vuePress/gitOpreation/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "git 操作",
+          "slug": "git-操作"
         }
       ],
       "lastUpdated": "2023年8月8日",
@@ -398,28 +428,50 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691207118000
     },
     {
-      "title": "引入组件库",
+      "title": "vueprss 初体验",
       "frontmatter": {
-        "title": "引入组件库"
+        "title": "vueprss 初体验"
       },
-      "regularPath": "/vuePress/vendorGuide/",
-      "relativePath": "vuePress/vendorGuide/README.md",
-      "key": "v-fcb9dbd2",
-      "path": "/vuePress/vendorGuide/",
+      "regularPath": "/vuePress/vuePressGuide/",
+      "relativePath": "vuePress/vuePressGuide/README.md",
+      "key": "v-f3157192",
+      "path": "/vuePress/vuePressGuide/",
+      "lastUpdated": "2023年8月7日",
+      "lastUpdatedTimestamp": 1691423488000
+    },
+    {
+      "title": "PWA 离线缓存",
+      "frontmatter": {
+        "title": "PWA 离线缓存"
+      },
+      "regularPath": "/vuePress/pwaGuide/",
+      "relativePath": "vuePress/pwaGuide/README.md",
+      "key": "v-6bc56a52",
+      "path": "/vuePress/pwaGuide/",
       "headers": [
         {
           "level": 2,
-          "title": "引入 第三方组件或者插件",
-          "slug": "引入-第三方组件或者插件"
+          "title": "PWA 插件",
+          "slug": "pwa-插件"
         },
         {
           "level": 2,
-          "title": "关于 enhanceApp.js 文件",
-          "slug": "关于-enhanceapp-js-文件"
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "兼容处理",
+          "slug": "兼容处理"
         }
       ],
-      "lastUpdated": "2023年8月7日",
-      "lastUpdatedTimestamp": 1691423488000
+      "lastUpdated": "2023年8月8日",
+      "lastUpdatedTimestamp": 1691509746000
     },
     {
       "title": "webpack",
@@ -444,14 +496,26 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691161414000
     },
     {
-      "title": "vueprss 初体验",
+      "title": "引入组件库",
       "frontmatter": {
-        "title": "vueprss 初体验"
+        "title": "引入组件库"
       },
-      "regularPath": "/vuePress/vuePressGuide/",
-      "relativePath": "vuePress/vuePressGuide/README.md",
-      "key": "v-f3157192",
-      "path": "/vuePress/vuePressGuide/",
+      "regularPath": "/vuePress/vendorGuide/",
+      "relativePath": "vuePress/vendorGuide/README.md",
+      "key": "v-fcb9dbd2",
+      "path": "/vuePress/vendorGuide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "引入 第三方组件或者插件",
+          "slug": "引入-第三方组件或者插件"
+        },
+        {
+          "level": 2,
+          "title": "关于 enhanceApp.js 文件",
+          "slug": "关于-enhanceapp-js-文件"
+        }
+      ],
       "lastUpdated": "2023年8月7日",
       "lastUpdatedTimestamp": 1691423488000
     },
@@ -483,6 +547,28 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691161414000
     },
     {
+      "title": "echaarts 图表",
+      "frontmatter": {},
+      "regularPath": "/web/echarts/",
+      "relativePath": "web/echarts/README.md",
+      "key": "v-68562cfb",
+      "path": "/web/echarts/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "echaarts 图表",
+          "slug": "echaarts-图表"
+        },
+        {
+          "level": 3,
+          "title": "使用概述",
+          "slug": "使用概述"
+        }
+      ],
+      "lastUpdated": "2023年8月15日",
+      "lastUpdatedTimestamp": 1692092737000
+    },
+    {
       "title": "eleemnt-ui",
       "frontmatter": {},
       "regularPath": "/web/element-ui/",
@@ -505,82 +591,130 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691161414000
     },
     {
-      "title": "概述",
-      "frontmatter": {},
-      "regularPath": "/web/javascript/",
-      "relativePath": "web/javascript/README.md",
-      "key": "v-5d059351",
-      "path": "/web/javascript/",
+      "title": "前言",
+      "frontmatter": {
+        "title": "前言"
+      },
+      "regularPath": "/web/hosp-ui/",
+      "relativePath": "web/hosp-ui/README.md",
+      "key": "v-014b2535",
+      "path": "/web/hosp-ui/",
       "headers": [
         {
           "level": 2,
-          "title": "概述",
-          "slug": "概述"
-        }
-      ],
-      "lastUpdated": "2023年8月4日",
-      "lastUpdatedTimestamp": 1691161414000
-    },
-    {
-      "title": "echaarts 图表",
-      "frontmatter": {},
-      "regularPath": "/web/echarts/",
-      "relativePath": "web/echarts/README.md",
-      "key": "v-68562cfb",
-      "path": "/web/echarts/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "echaarts 图表",
-          "slug": "echaarts-图表"
+          "title": "知识扫盲",
+          "slug": "知识扫盲"
         },
         {
-          "level": 3,
-          "title": "使用概述",
-          "slug": "使用概述"
-        }
-      ],
-      "lastUpdated": "2023年8月4日",
-      "lastUpdatedTimestamp": 1691161414000
-    },
-    {
-      "title": "nodejs",
-      "frontmatter": {},
-      "regularPath": "/web/nodejs/",
-      "relativePath": "web/nodejs/README.md",
-      "key": "v-ddf8f6de",
-      "path": "/web/nodejs/",
-      "headers": [
-        {
           "level": 2,
-          "title": "nodejs",
-          "slug": "nodejs"
-        }
-      ],
-      "lastUpdated": "2023年8月4日",
-      "lastUpdatedTimestamp": 1691161414000
-    },
-    {
-      "title": "plugins",
-      "frontmatter": {},
-      "regularPath": "/web/plugins/",
-      "relativePath": "web/plugins/README.md",
-      "key": "v-94d9fca2",
-      "path": "/web/plugins/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "plugins",
-          "slug": "plugins"
+          "title": "vuepress",
+          "slug": "vuepress"
         },
         {
-          "level": 3,
-          "title": "音乐插件",
-          "slug": "音乐插件"
+          "level": 2,
+          "title": "monorepo",
+          "slug": "monorepo"
         }
-      ],
-      "lastUpdated": "2023年8月12日",
-      "lastUpdatedTimestamp": 1691854023000
+      ]
+    },
+    {
+      "title": "初始化项目配置",
+      "frontmatter": {
+        "title": "初始化项目配置"
+      },
+      "regularPath": "/web/hosp-ui/configInit.html",
+      "relativePath": "web/hosp-ui/configInit.md",
+      "key": "v-3cf4cee4",
+      "path": "/web/hosp-ui/configInit.html"
+    },
+    {
+      "title": "搭建组件库开发环境",
+      "frontmatter": {
+        "title": "搭建组件库开发环境"
+      },
+      "regularPath": "/web/hosp-ui/componentEnvInig.html",
+      "relativePath": "web/hosp-ui/componentEnvInig.md",
+      "key": "v-5240c7cc",
+      "path": "/web/hosp-ui/componentEnvInig.html"
+    },
+    {
+      "title": "搭建组件库的 CSS 架构",
+      "frontmatter": {
+        "title": "搭建组件库的 CSS 架构"
+      },
+      "regularPath": "/web/hosp-ui/css.html",
+      "relativePath": "web/hosp-ui/css.md",
+      "key": "v-5a9ff5e0",
+      "path": "/web/hosp-ui/css.html"
+    },
+    {
+      "title": "搭建example环境",
+      "frontmatter": {
+        "title": "搭建example环境"
+      },
+      "regularPath": "/web/hosp-ui/example.html",
+      "relativePath": "web/hosp-ui/example.md",
+      "key": "v-647f3e80",
+      "path": "/web/hosp-ui/example.html"
+    },
+    {
+      "title": "搭建 monorepo",
+      "frontmatter": {
+        "title": "搭建 monorepo"
+      },
+      "regularPath": "/web/hosp-ui/monorepo.html",
+      "relativePath": "web/hosp-ui/monorepo.md",
+      "key": "v-16b73c48",
+      "path": "/web/hosp-ui/monorepo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "认识 monorepo",
+          "slug": "认识-monorepo"
+        },
+        {
+          "level": 2,
+          "title": "使用场景",
+          "slug": "使用场景"
+        },
+        {
+          "level": 2,
+          "title": "monorepo 配置",
+          "slug": "monorepo-配置"
+        },
+        {
+          "level": 2,
+          "title": "在子项目中的使用方法",
+          "slug": "在子项目中的使用方法"
+        }
+      ]
+    },
+    {
+      "title": "初始化项目",
+      "frontmatter": {
+        "title": "初始化项目"
+      },
+      "regularPath": "/web/hosp-ui/start.html",
+      "relativePath": "web/hosp-ui/start.md",
+      "key": "v-20598c00",
+      "path": "/web/hosp-ui/start.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "创建项目文件夹",
+          "slug": "创建项目文件夹"
+        }
+      ]
+    },
+    {
+      "title": "组件库通用工具包",
+      "frontmatter": {
+        "title": "组件库通用工具包"
+      },
+      "regularPath": "/web/hosp-ui/utils.html",
+      "relativePath": "web/hosp-ui/utils.md",
+      "key": "v-6e6ebea0",
+      "path": "/web/hosp-ui/utils.html"
     },
     {
       "title": "vue",
@@ -600,22 +734,34 @@ export const siteData = {
       "lastUpdatedTimestamp": 1691250484000
     },
     {
-      "title": "webpack",
+      "title": "nodejs",
       "frontmatter": {},
-      "regularPath": "/web/webpack/",
-      "relativePath": "web/webpack/README.md",
-      "key": "v-6573ad15",
-      "path": "/web/webpack/",
+      "regularPath": "/web/nodejs/",
+      "relativePath": "web/nodejs/README.md",
+      "key": "v-ddf8f6de",
+      "path": "/web/nodejs/",
       "headers": [
         {
           "level": 2,
-          "title": "webpack",
-          "slug": "webpack"
-        },
+          "title": "nodejs",
+          "slug": "nodejs"
+        }
+      ],
+      "lastUpdated": "2023年8月4日",
+      "lastUpdatedTimestamp": 1691161414000
+    },
+    {
+      "title": "概述",
+      "frontmatter": {},
+      "regularPath": "/web/javascript/",
+      "relativePath": "web/javascript/README.md",
+      "key": "v-5d059351",
+      "path": "/web/javascript/",
+      "headers": [
         {
-          "level": 3,
-          "title": "webpack 坚决",
-          "slug": "webpack-坚决"
+          "level": 2,
+          "title": "概述",
+          "slug": "概述"
         }
       ],
       "lastUpdated": "2023年8月4日",
@@ -647,6 +793,50 @@ export const siteData = {
       ],
       "lastUpdated": "2023年8月4日",
       "lastUpdatedTimestamp": 1691161414000
+    },
+    {
+      "title": "webpack",
+      "frontmatter": {},
+      "regularPath": "/web/webpack/",
+      "relativePath": "web/webpack/README.md",
+      "key": "v-6573ad15",
+      "path": "/web/webpack/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webpack",
+          "slug": "webpack"
+        },
+        {
+          "level": 3,
+          "title": "webpack 坚决",
+          "slug": "webpack-坚决"
+        }
+      ],
+      "lastUpdated": "2023年8月4日",
+      "lastUpdatedTimestamp": 1691161414000
+    },
+    {
+      "title": "plugins",
+      "frontmatter": {},
+      "regularPath": "/web/plugins/",
+      "relativePath": "web/plugins/README.md",
+      "key": "v-94d9fca2",
+      "path": "/web/plugins/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "plugins",
+          "slug": "plugins"
+        },
+        {
+          "level": 3,
+          "title": "音乐插件",
+          "slug": "音乐插件"
+        }
+      ],
+      "lastUpdated": "2023年8月12日",
+      "lastUpdatedTimestamp": 1691854023000
     }
   ],
   "themeConfig": {
@@ -698,6 +888,10 @@ export const siteData = {
           {
             "text": "前端有趣的插件",
             "link": "/web/plugins/"
+          },
+          {
+            "text": " 前端组件库开发",
+            "link": "/web/hosp-ui/"
           }
         ]
       },
@@ -741,6 +935,15 @@ export const siteData = {
       ],
       "/web/javascript/": [
         "/web/javascript/"
+      ],
+      "/web/hosp-ui/": [
+        "/web/hosp-ui/",
+        "start",
+        "monorepo",
+        "configInit",
+        "componentEnvInig",
+        "css",
+        "example"
       ]
     },
     "lastUpdated": "更新时间",
