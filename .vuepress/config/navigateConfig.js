@@ -22,7 +22,7 @@ const navigation = [
       { text: "nodejs", link: "/web/nodejs/" },
       { text: "前端部署那些事", link: "/web/webDescription/" },
       { text: "前端有趣的插件", link: "/web/plugins/" },
-      { text: " 前端组件库开发", link: "/web/hosp-ui/" }
+      { text: " 前端组件库开发", link: "/web/hosp-ui/" },
     ],
   },
   {
@@ -31,6 +31,12 @@ const navigation = [
       { text: "罗老师金典名言", link: "/" },
       { text: "走心文案", link: "/dayRecord/heart/" },
     ],
+  },
+  {
+    text: "前端项目",
+    items: [
+      {text:'聊天室',link:'/myProject/chartRoom/'}
+    ]
   },
   { text: "博客", link: "https://huaxiaobao.top" },
   { text: "语言", link: "/language/" },

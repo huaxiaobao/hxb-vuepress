@@ -181,9 +181,50 @@ export const siteData = {
         "rel": "prefetch",
         "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
       }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
+    ],
+    [
+      "link",
+      {
+        "id": "echarts-lib",
+        "rel": "prefetch",
+        "href": "https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"
+      }
     ]
   ],
   "pages": [
+    {
+      "frontmatter": {},
+      "regularPath": "/dayRecord/heart/",
+      "relativePath": "dayRecord/heart/README.md",
+      "key": "v-617164b1",
+      "path": "/dayRecord/heart/",
+      "lastUpdated": "2023年8月15日",
+      "lastUpdatedTimestamp": 1692092737000
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -215,15 +256,6 @@ export const siteData = {
       "path": "/",
       "lastUpdated": "2023年8月6日",
       "lastUpdatedTimestamp": 1691334975000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/dayRecord/heart/",
-      "relativePath": "dayRecord/heart/README.md",
-      "key": "v-617164b1",
-      "path": "/dayRecord/heart/",
-      "lastUpdated": "2023年8月15日",
-      "lastUpdatedTimestamp": 1692092737000
     },
     {
       "title": "欢迎进入语言配置栏，这里即将为你介绍，多彩的语言环境",
@@ -275,6 +307,107 @@ export const siteData = {
       ],
       "lastUpdated": "2023年7月26日",
       "lastUpdatedTimestamp": 1690370617000
+    },
+    {
+      "title": "前言",
+      "frontmatter": {
+        "title": "前言"
+      },
+      "regularPath": "/myProject/chartRoom/",
+      "relativePath": "myProject/chartRoom/README.md",
+      "key": "v-ef71bfea",
+      "path": "/myProject/chartRoom/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "背景",
+          "slug": "背景"
+        },
+        {
+          "level": 2,
+          "title": "项目技术选型",
+          "slug": "项目技术选型"
+        }
+      ]
+    },
+    {
+      "title": "了解socket.io",
+      "frontmatter": {
+        "title": "了解socket.io"
+      },
+      "regularPath": "/myProject/chartRoom/socketIo.html",
+      "relativePath": "myProject/chartRoom/socketIo.md",
+      "key": "v-0983b1aa",
+      "path": "/myProject/chartRoom/socketIo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "socket.io",
+          "slug": "socket-io"
+        },
+        {
+          "level": 2,
+          "title": "入门",
+          "slug": "入门"
+        },
+        {
+          "level": 2,
+          "title": "客户端和服务器连接",
+          "slug": "客户端和服务器连接"
+        },
+        {
+          "level": 2,
+          "title": "客户端和服务器之间的通信",
+          "slug": "客户端和服务器之间的通信"
+        },
+        {
+          "level": 2,
+          "title": "房间",
+          "slug": "房间"
+        },
+        {
+          "level": 2,
+          "title": "断开连接",
+          "slug": "断开连接"
+        },
+        {
+          "level": 2,
+          "title": "vuex 的应用",
+          "slug": "vuex-的应用"
+        },
+        {
+          "level": 2,
+          "title": "各种 api 介绍",
+          "slug": "各种-api-介绍"
+        }
+      ]
+    },
+    {
+      "title": "搭建前端页面",
+      "frontmatter": {
+        "title": "搭建前端页面"
+      },
+      "regularPath": "/myProject/chartRoom/webBuild.html",
+      "relativePath": "myProject/chartRoom/webBuild.md",
+      "key": "v-6d369030",
+      "path": "/myProject/chartRoom/webBuild.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "准备工作",
+          "slug": "准备工作"
+        },
+        {
+          "level": 2,
+          "title": "登录界面",
+          "slug": "登录界面"
+        },
+        {
+          "level": 2,
+          "title": "搭建聊天页面框",
+          "slug": "搭建聊天页面框"
+        }
+      ]
     },
     {
       "title": "vuepress 使用",
@@ -634,8 +767,8 @@ export const siteData = {
           "slug": "未完待续。。。。。。"
         }
       ],
-      "lastUpdated": "2023年8月4日",
-      "lastUpdatedTimestamp": 1691161414000
+      "lastUpdated": "2023年9月3日",
+      "lastUpdatedTimestamp": 1693737310000
     },
     {
       "title": "echaarts 图表",
@@ -747,6 +880,18 @@ export const siteData = {
       "lastUpdatedTimestamp": 1693322710000
     },
     {
+      "title": "搭建example环境",
+      "frontmatter": {
+        "title": "搭建example环境"
+      },
+      "regularPath": "/web/hosp-ui/example.html",
+      "relativePath": "web/hosp-ui/example.md",
+      "key": "v-647f3e80",
+      "path": "/web/hosp-ui/example.html",
+      "lastUpdated": "2023年8月29日",
+      "lastUpdatedTimestamp": 1693322710000
+    },
+    {
       "title": "搭建 monorepo",
       "frontmatter": {
         "title": "搭建 monorepo"
@@ -781,18 +926,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1693322710000
     },
     {
-      "title": "搭建example环境",
-      "frontmatter": {
-        "title": "搭建example环境"
-      },
-      "regularPath": "/web/hosp-ui/example.html",
-      "relativePath": "web/hosp-ui/example.md",
-      "key": "v-647f3e80",
-      "path": "/web/hosp-ui/example.html",
-      "lastUpdated": "2023年8月29日",
-      "lastUpdatedTimestamp": 1693322710000
-    },
-    {
       "title": "初始化项目",
       "frontmatter": {
         "title": "初始化项目"
@@ -813,8 +946,8 @@ export const siteData = {
           "slug": "packages-目录"
         }
       ],
-      "lastUpdated": "2023年8月29日",
-      "lastUpdatedTimestamp": 1693322710000
+      "lastUpdated": "2023年9月3日",
+      "lastUpdatedTimestamp": 1693737310000
     },
     {
       "title": "组件库通用工具包",
@@ -1021,6 +1154,15 @@ export const siteData = {
         ]
       },
       {
+        "text": "前端项目",
+        "items": [
+          {
+            "text": "聊天室",
+            "link": "/myProject/chartRoom/"
+          }
+        ]
+      },
+      {
         "text": "博客",
         "link": "https://huaxiaobao.top"
       },
@@ -1056,6 +1198,11 @@ export const siteData = {
         "componentEnvInig",
         "css",
         "example"
+      ],
+      "/myProject/chartRoom": [
+        "/myProject/chartRoom/",
+        "/myProject/chartRoom/socketIo",
+        "/myProject/chartRoom/webBuild"
       ]
     },
     "lastUpdated": "更新时间",

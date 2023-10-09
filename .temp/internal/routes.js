@@ -9,18 +9,6 @@ import GlobalLayout from "F:\\我的项目\\测试vue按需导入问题\\my-vue-
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-e0f072fe",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e0f072fe").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-617164b1",
     path: "/dayRecord/heart/",
     component: GlobalLayout,
@@ -31,6 +19,18 @@ export const routes = [
   {
     path: "/dayRecord/heart/index.html",
     redirect: "/dayRecord/heart/"
+  },
+  {
+    name: "v-e0f072fe",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e0f072fe").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-c6f917b8",
@@ -58,6 +58,34 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7d5e92be").then(next)
+    },
+  },
+  {
+    name: "v-ef71bfea",
+    path: "/myProject/chartRoom/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ef71bfea").then(next)
+    },
+  },
+  {
+    path: "/myProject/chartRoom/index.html",
+    redirect: "/myProject/chartRoom/"
+  },
+  {
+    name: "v-0983b1aa",
+    path: "/myProject/chartRoom/socketIo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0983b1aa").then(next)
+    },
+  },
+  {
+    name: "v-6d369030",
+    path: "/myProject/chartRoom/webBuild.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6d369030").then(next)
     },
   },
   {
@@ -253,19 +281,19 @@ export const routes = [
     },
   },
   {
-    name: "v-16b73c48",
-    path: "/web/hosp-ui/monorepo.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-16b73c48").then(next)
-    },
-  },
-  {
     name: "v-647f3e80",
     path: "/web/hosp-ui/example.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-647f3e80").then(next)
+    },
+  },
+  {
+    name: "v-16b73c48",
+    path: "/web/hosp-ui/monorepo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-16b73c48").then(next)
     },
   },
   {

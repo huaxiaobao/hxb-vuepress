@@ -13,7 +13,8 @@ const sideBarConfigObj = {
   ],
   "/language/": ["chinese", "english"],
   "/web/javascript/": ["/web/javascript/"],
-  '/web/hosp-ui/':['/web/hosp-ui/','start','monorepo','configInit','componentEnvInig','css','example']
+  '/web/hosp-ui/': ['/web/hosp-ui/', 'start', 'monorepo', 'configInit', 'componentEnvInig', 'css', 'example'],
+  '/myProject/chartRoom':['/myProject/chartRoom/','/myProject/chartRoom/socketIo','/myProject/chartRoom/webBuild']
 };
 
 module.exports = sideBarConfigObj;
