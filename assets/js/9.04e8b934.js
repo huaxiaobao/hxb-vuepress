@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{433:function(n,t,e){"use strict";e.r(t);var o={name:"histogram",data:()=>({}),mounted(){},methods:{}},s=e(3),u=Object(s.a)(o,(function(){return(0,this._self._c)("Toc")}),[],!1,null,null,null);t.default=u.exports}}]);
